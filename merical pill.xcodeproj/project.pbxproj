@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E62ABBA1F01C2470097970B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62ABB91F01C2470097970B /* AppDelegate.swift */; };
+		5E62ABBC1F01C2470097970B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62ABBB1F01C2470097970B /* ViewController.swift */; };
+		5E62ABBF1F01C2470097970B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E62ABBD1F01C2470097970B /* Main.storyboard */; };
+		5E62ABC11F01C2470097970B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E62ABC01F01C2470097970B /* Assets.xcassets */; };
+		5E62ABC41F01C2470097970B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E62ABC21F01C2470097970B /* LaunchScreen.storyboard */; };
+		5E62ABCF1F01C2470097970B /* merical_pillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62ABCE1F01C2470097970B /* merical_pillTests.swift */; };
+		5E62ABDA1F01C2470097970B /* merical_pillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E62ABD91F01C2470097970B /* merical_pillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E62ABCB1F01C2470097970B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E62ABAE1F01C2470097970B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E62ABB51F01C2470097970B;
+			remoteInfo = "merical pill";
+		};
+		5E62ABD61F01C2470097970B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E62ABAE1F01C2470097970B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E62ABB51F01C2470097970B;
+			remoteInfo = "merical pill";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E62ABB61F01C2470097970B /* merical pill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "merical pill.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E62ABB91F01C2470097970B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E62ABBB1F01C2470097970B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E62ABBE1F01C2470097970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E62ABC01F01C2470097970B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E62ABC31F01C2470097970B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E62ABC51F01C2470097970B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E62ABCA1F01C2470097970B /* merical pillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "merical pillTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E62ABCE1F01C2470097970B /* merical_pillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merical_pillTests.swift; sourceTree = "<group>"; };
+		5E62ABD01F01C2470097970B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E62ABD51F01C2470097970B /* merical pillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "merical pillUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E62ABD91F01C2470097970B /* merical_pillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merical_pillUITests.swift; sourceTree = "<group>"; };
+		5E62ABDB1F01C2470097970B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E62ABB31F01C2470097970B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABC71F01C2470097970B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABD21F01C2470097970B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E62ABAD1F01C2470097970B = {
+			isa = PBXGroup;
+			children = (
+				5E62ABB81F01C2470097970B /* merical pill */,
+				5E62ABCD1F01C2470097970B /* merical pillTests */,
+				5E62ABD81F01C2470097970B /* merical pillUITests */,
+				5E62ABB71F01C2470097970B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E62ABB71F01C2470097970B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E62ABB61F01C2470097970B /* merical pill.app */,
+				5E62ABCA1F01C2470097970B /* merical pillTests.xctest */,
+				5E62ABD51F01C2470097970B /* merical pillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E62ABB81F01C2470097970B /* merical pill */ = {
+			isa = PBXGroup;
+			children = (
+				5E62ABB91F01C2470097970B /* AppDelegate.swift */,
+				5E62ABBB1F01C2470097970B /* ViewController.swift */,
+				5E62ABBD1F01C2470097970B /* Main.storyboard */,
+				5E62ABC01F01C2470097970B /* Assets.xcassets */,
+				5E62ABC21F01C2470097970B /* LaunchScreen.storyboard */,
+				5E62ABC51F01C2470097970B /* Info.plist */,
+			);
+			path = "merical pill";
+			sourceTree = "<group>";
+		};
+		5E62ABCD1F01C2470097970B /* merical pillTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E62ABCE1F01C2470097970B /* merical_pillTests.swift */,
+				5E62ABD01F01C2470097970B /* Info.plist */,
+			);
+			path = "merical pillTests";
+			sourceTree = "<group>";
+		};
+		5E62ABD81F01C2470097970B /* merical pillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E62ABD91F01C2470097970B /* merical_pillUITests.swift */,
+				5E62ABDB1F01C2470097970B /* Info.plist */,
+			);
+			path = "merical pillUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E62ABB51F01C2470097970B /* merical pill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E62ABDE1F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pill" */;
+			buildPhases = (
+				5E62ABB21F01C2470097970B /* Sources */,
+				5E62ABB31F01C2470097970B /* Frameworks */,
+				5E62ABB41F01C2470097970B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "merical pill";
+			productName = "merical pill";
+			productReference = 5E62ABB61F01C2470097970B /* merical pill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E62ABC91F01C2470097970B /* merical pillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E62ABE11F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pillTests" */;
+			buildPhases = (
+				5E62ABC61F01C2470097970B /* Sources */,
+				5E62ABC71F01C2470097970B /* Frameworks */,
+				5E62ABC81F01C2470097970B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E62ABCC1F01C2470097970B /* PBXTargetDependency */,
+			);
+			name = "merical pillTests";
+			productName = "merical pillTests";
+			productReference = 5E62ABCA1F01C2470097970B /* merical pillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E62ABD41F01C2470097970B /* merical pillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E62ABE41F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pillUITests" */;
+			buildPhases = (
+				5E62ABD11F01C2470097970B /* Sources */,
+				5E62ABD21F01C2470097970B /* Frameworks */,
+				5E62ABD31F01C2470097970B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E62ABD71F01C2470097970B /* PBXTargetDependency */,
+			);
+			name = "merical pillUITests";
+			productName = "merical pillUITests";
+			productReference = 5E62ABD51F01C2470097970B /* merical pillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E62ABAE1F01C2470097970B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Lucas Letourneau";
+				TargetAttributes = {
+					5E62ABB51F01C2470097970B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2T4JM82JLU;
+						ProvisioningStyle = Automatic;
+					};
+					5E62ABC91F01C2470097970B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2T4JM82JLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E62ABB51F01C2470097970B;
+					};
+					5E62ABD41F01C2470097970B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 2T4JM82JLU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5E62ABB51F01C2470097970B;
+					};
+				};
+			};
+			buildConfigurationList = 5E62ABB11F01C2470097970B /* Build configuration list for PBXProject "merical pill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E62ABAD1F01C2470097970B;
+			productRefGroup = 5E62ABB71F01C2470097970B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E62ABB51F01C2470097970B /* merical pill */,
+				5E62ABC91F01C2470097970B /* merical pillTests */,
+				5E62ABD41F01C2470097970B /* merical pillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E62ABB41F01C2470097970B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E62ABC41F01C2470097970B /* LaunchScreen.storyboard in Resources */,
+				5E62ABC11F01C2470097970B /* Assets.xcassets in Resources */,
+				5E62ABBF1F01C2470097970B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABC81F01C2470097970B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABD31F01C2470097970B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E62ABB21F01C2470097970B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E62ABBC1F01C2470097970B /* ViewController.swift in Sources */,
+				5E62ABBA1F01C2470097970B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABC61F01C2470097970B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E62ABCF1F01C2470097970B /* merical_pillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E62ABD11F01C2470097970B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E62ABDA1F01C2470097970B /* merical_pillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E62ABCC1F01C2470097970B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E62ABB51F01C2470097970B /* merical pill */;
+			targetProxy = 5E62ABCB1F01C2470097970B /* PBXContainerItemProxy */;
+		};
+		5E62ABD71F01C2470097970B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E62ABB51F01C2470097970B /* merical pill */;
+			targetProxy = 5E62ABD61F01C2470097970B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E62ABBD1F01C2470097970B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E62ABBE1F01C2470097970B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E62ABC21F01C2470097970B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E62ABC31F01C2470097970B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E62ABDC1F01C2470097970B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E62ABDD1F01C2470097970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62ABDF1F01C2470097970B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5E62ABE01F01C2470097970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pill/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pill";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5E62ABE21F01C2470097970B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/merical pill.app/merical pill";
+			};
+			name = Debug;
+		};
+		5E62ABE31F01C2470097970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pillTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pillTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/merical pill.app/merical pill";
+			};
+			name = Release;
+		};
+		5E62ABE51F01C2470097970B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "merical pill";
+			};
+			name = Debug;
+		};
+		5E62ABE61F01C2470097970B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2T4JM82JLU;
+				INFOPLIST_FILE = "merical pillUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "first.merical-pillUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "merical pill";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E62ABB11F01C2470097970B /* Build configuration list for PBXProject "merical pill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62ABDC1F01C2470097970B /* Debug */,
+				5E62ABDD1F01C2470097970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E62ABDE1F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62ABDF1F01C2470097970B /* Debug */,
+				5E62ABE01F01C2470097970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E62ABE11F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62ABE21F01C2470097970B /* Debug */,
+				5E62ABE31F01C2470097970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E62ABE41F01C2470097970B /* Build configuration list for PBXNativeTarget "merical pillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62ABE51F01C2470097970B /* Debug */,
+				5E62ABE61F01C2470097970B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E62ABAE1F01C2470097970B /* Project object */;
+}
