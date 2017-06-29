@@ -17,7 +17,7 @@ class ViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDele
     
     @IBOutlet weak var provinceButton: UIButton!
     
-    let province = ["AB", "BC", "wetaskiwin"]
+    let province = ["AB", "BC", "mb", "NB", "NL", "NS"]
     
     
     override func viewDidLoad() {
